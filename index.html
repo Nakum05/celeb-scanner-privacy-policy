@@ -1,100 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy for Celeb Scanner AI - I Know Your Face</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        h1 {
-            text-align: center;
-            color: #007bff;
-        }
-        h2 {
-            color: #0056b3;
-        }
-        p {
-            margin-bottom: 10px;
-        }
-        ul {
-            list-style: none;
-        }
-        footer {
-            text-align: center;
-            margin-top: 30px;
-            font-size: 14px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Celeb Scanner AI</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    /* Global Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #4A90E2, #6a11cb, #2575fc);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+      color: #333;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border-radius: 20px;
+      padding: 50px 40px;
+      max-width: 600px;
+      width: 90%;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+      color: white;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: #f0f0f0;
+    }
+
+    a {
+      text-decoration: none;
+      background: #ffffff;
+      color: #4A90E2;
+      padding: 12px 28px;
+      border-radius: 30px;
+      font-weight: 600;
+      font-size: 1.2rem;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+
+    a:hover {
+      background: #f0f0f0;
+      transform: translateY(-2px);
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      a {
+        font-size: 1rem;
+        padding: 10px 20px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>Privacy Policy for Celeb Scanner AI - I Know Your Face</h1>
 
-    <p><strong>Effective Date:</strong> 29-08-2025</p>
-    <p><strong>Last Updated:</strong> 29-08-2025</p>
+  <div class="container">
+    <h1>Welcome to Celeb Scanner AI</h1>
+    <p>We provide fast and easy celebrity face recognition.<br> 
+       To learn more, please read our 
+       <a href="privacy-policy.html">Privacy Policy</a>.
+    </p>
+  </div>
 
-    <h2>1. Information We Collect</h2>
-    <p>We do not collect, store, or share any personal information through the Celeb Scanner AI - I Know Your Face app. Specifically:</p>
-    <ul>
-        <li><strong>Email Address:</strong> If you choose to log in using Google Sign-In, we collect your email address and name for authentication purposes via Firebase Authentication. This information is used solely to authenticate and manage your account. We do not store this data on our servers.</li>
-        <li><strong>Phone Number:</strong> You may provide your phone number to receive optional notifications, but it is not required for the functionality of the app. We do not store this information.</li>
-        <li><strong>Device Information:</strong> We do not collect any information about your device, such as device model, operating system, IP address, or any other device-related data.</li>
-        <li><strong>Usage Data:</strong> We do not collect any data regarding how you use the app, such as app usage patterns, features accessed, or other interaction details.</li>
-    </ul>
-
-    <h2>2. How We Use Your Information</h2>
-    <p>We do not use your information for any purposes beyond authentication via Google Sign-In through Firebase Authentication. Specifically:</p>
-    <ul>
-        <li><strong>Authentication:</strong> The information (email and name) provided during login is only used for account authentication and personalization within the app.</li>
-        <li><strong>Optional Notifications:</strong> If you provide your phone number, we may use it to send you optional notifications, but this information is not stored in any way beyond the notification process.</li>
-    </ul>
-
-    <h2>3. Third-Party Services</h2>
-    <p>We use the following third-party services to operate the app, but these services do not access, store, or share your personal information:</p>
-
-    <h3>3.1 Firebase</h3>
-    <p><strong>Firebase Authentication:</strong> We use Firebase to handle Google Sign-In authentication. Firebase collects your email and name, but this data is not stored or used for any purpose other than authentication. Firebase’s role is limited to verifying your login credentials, and once you are logged in, no data is retained beyond the session.</p>
-    <p><a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></p>
-
-    <h3>3.2 AWS (Amazon Web Services)</h3>
-    <p>We use AWS for backend processing, but no user data is stored on AWS servers. AWS does not store any personal information and is used purely for backend processes related to the functionality of the app (e.g., AI tasks).</p>
-
-    <h2>4. Data Security</h2>
-    <p>We take your privacy seriously and implement industry-standard security measures to protect the information transmitted through the app:</p>
-    <ul>
-        <li><strong>Encryption:</strong> Any data that is transmitted between your device and our services is encrypted.</li>
-        <li><strong>No Data Storage:</strong> We do not store any personal data, and no one (including third parties) has access to your data beyond the necessary authentication process.</li>
-    </ul>
-
-    <h2>5. Data Retention</h2>
-    <p>Since we do not store any user data, there is no need for data retention. Once you log out of the app, any information collected for the login process (email, name) is not stored. The phone number you provide (if applicable) is also not retained beyond the notification process.</p>
-
-    <h2>6. Your Rights and Choices</h2>
-    <p>You have the following rights regarding your personal data:</p>
-    <ul>
-        <li><strong>Access:</strong> You can access the personal data stored by Firebase, such as your email and name, by reviewing your Google Account settings.</li>
-        <li><strong>Deletion:</strong> Since we do not store any personal data, there is no data for us to delete on our end. However, you may delete your account or revoke access through Google Sign-In at any time.</li>
-        <li><strong>Control Over Notifications:</strong> If you choose to provide your phone number, you can opt-out of receiving notifications at any time.</li>
-    </ul>
-
-    <h2>7. Children’s Privacy</h2>
-    <p>This app is not intended for children under the age of 13. We do not knowingly collect personal data from children. If we learn that we have inadvertently collected personal data from a child under 13, we will take immediate steps to delete that data. If you believe we have collected such data, please contact us immediately at <a href="mailto:celebscannerhelp@gmail.com">celebscannerhelp@gmail.com</a>.</p>
-
-    <h2>8. Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. If we make any significant changes, we will notify you by updating the "Last Updated" date at the top of this page and posting the new Privacy Policy.</p>
-
-    <h2>9. Contact Us</h2>
-    <p>If you have any questions or concerns about this Privacy Policy or how we handle your personal data, please contact us at:</p>
-    <p><strong>Email:</strong> <a href="mailto:celebscannerhelp@gmail.com">celebscannerhelp@gmail.com</a></p>
-
-    <footer>
-        <p>&copy; 2025 Celeb Scanner AI - I Know Your Face</p>
-    </footer>
 </body>
 </html>
