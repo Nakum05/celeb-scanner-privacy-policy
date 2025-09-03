@@ -1,92 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Celeb Scanner AI</title>
- 
-    <!-- Google Fonts for modern look -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Celeb Scanner AI</title>
 
-    <style>
-        /* Global Reset */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-        }
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-        body {
-            background-color: #f4f7fc; /* Light background color */
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #333;
-        }
+  <style>
+    /* Global Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
 
-        .container {
-            text-align: center;
-            background: #ffffff;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
-            border-radius: 15px;
-            width: 90%;
-            max-width: 600px;
-            padding: 40px;
-            margin: 20px;
-        }
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #4A90E2, #6a11cb, #2575fc);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+      color: #333;
+    }
 
-        h1 {
-            font-size: 2.5rem;
-            color: #4A90E2; /* Blue color for the title */
-            font-weight: 600;
-            margin-bottom: 20px;
-        }
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
 
-        p {
-            font-size: 1.1rem;
-            margin-bottom: 25px;
-            color: #777; /* Lighter text color for description */
-        }
+    .container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border-radius: 20px;
+      padding: 50px 40px;
+      max-width: 600px;
+      width: 90%;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+      color: white;
+    }
 
-        a {
-            text-decoration: none;
-            background: #4A90E2; /* Button color */
-            padding: 12px 25px;
-            border-radius: 25px; /* Rounded corners */
-            color: white;
-            font-weight: 600;
-            font-size: 1.2rem;
-            transition: background 0.3s ease;
-        }
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
 
-        a:hover {
-            background: #357ab7; /* Darker shade on hover */
-        }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: #f0f0f0;
+    }
 
-        /* Responsive Design */
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 2rem;
-            }
+    a {
+      text-decoration: none;
+      background: #ffffff;
+      color: #4A90E2;
+      padding: 12px 28px;
+      border-radius: 30px;
+      font-weight: 600;
+      font-size: 1.2rem;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
 
-            p {
-                font-size: 1rem;
-            }
+    a:hover {
+      background: #f0f0f0;
+      transform: translateY(-2px);
+    }
 
-            a {
-                font-size: 1.1rem;
-            }
-        }
-    </style>
+    /* Responsive */
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      a {
+        font-size: 1rem;
+        padding: 10px 20px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1>Welcome to Celeb Scanner AI</h1>
-        <p>We provide fast and easy celebrity face recognition. To learn more, please read our <a href="privacy-policy.html">Privacy Policy</a>.</p>
-    </div>
+  <div class="container">
+    <h1>Welcome to Celeb Scanner AI</h1>
+    <p>We provide fast and easy celebrity face recognition.<br> 
+       To learn more, please read our 
+       <a href="privacy-policy.html">Privacy Policy</a>.
+    </p>
+  </div>
 
 </body>
 </html>
